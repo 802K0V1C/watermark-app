@@ -1,0 +1,11 @@
+{
+  "name": "watermark-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:802K0V1C/watermark-app.git",
+  "author": "Artur Bożek <arturhubert.bozek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "0.6.4"
+  }
+}
