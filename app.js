@@ -58,9 +58,7 @@ const answer = await inquirer.prompt([{
     type: 'confirm'
     }]);
 
-
 if(!answer.start) process.exit();
-
 
 const options = await inquirer.prompt([{
     name: 'inputImage',
@@ -100,5 +98,6 @@ if (existsSync('./img/' + options.inputImage)) {
 } else {
     console.log(`The file './img/${options.inputImage}' does not exist.`)
 }
-
 };
+
+startApp();
